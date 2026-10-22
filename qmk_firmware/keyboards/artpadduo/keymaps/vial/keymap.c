@@ -3,10 +3,8 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {};
 
 #if defined(ENCODER_MAP_ENABLE)
-// Default assignments (editable later in Vial)
-const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
-    [0] = { ENCODER_CCW_CW(KC_NO, KC_NO) },
-};
+// Must have the same layer count as keymaps[] (0 layers; assignments are stored in Vial's EEPROM)
+const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {};
 #endif
 
 // The controller footprint has no GND pad, so the encoder's common
