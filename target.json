@@ -1,0 +1,18 @@
+{
+    "include": [
+        {
+            "keyboard": "artpadduo",
+            "keymap": "vial",
+            "target": "uf2",
+            "flags": "EXTRAFLAGS=\"-DINIT_EE_HANDS_LEFT\"",
+            "name": "artpadduo_vial_left"
+        },
+        {
+            "keyboard": "artpadduo",
+            "keymap": "vial",
+            "target": "uf2",
+            "flags": "EXTRAFLAGS=\"-DINIT_EE_HANDS_RIGHT\"",
+            "name": "artpadduo_vial_right"
+        }
+    ]
+}
