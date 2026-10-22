@@ -12,7 +12,8 @@
 #define ENCODER_A_PINS { GP5 }
 #define ENCODER_B_PINS { GP8 }
 #define ENCODER_RESOLUTIONS { 2 }
-// Right half has no encoder
-#define ENCODER_A_PINS_RIGHT { }
-#define ENCODER_B_PINS_RIGHT { }
-#define ENCODER_RESOLUTIONS_RIGHT { }
+// Right half has no encoder: one dummy entry with NO_PIN
+// (empty arrays trigger -Werror=array-bounds in the QMK driver)
+#define ENCODER_A_PINS_RIGHT { NO_PIN }
+#define ENCODER_B_PINS_RIGHT { NO_PIN }
+#define ENCODER_RESOLUTIONS_RIGHT { 2 }
