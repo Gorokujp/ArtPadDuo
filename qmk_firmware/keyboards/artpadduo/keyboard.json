@@ -784,7 +784,13 @@
             ]
         }
     },
-    "dynamic_keymap": {
-        "layer_count": 4
+    "encoder": {
+        "rotary": [
+            {
+                "pin_a": "GP5",
+                "pin_b": "GP8",
+                "resolution": 2
+            }
+        ]
     }
 }
