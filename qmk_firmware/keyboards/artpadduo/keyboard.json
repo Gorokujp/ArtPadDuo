@@ -783,5 +783,8 @@
                 }
             ]
         }
+    },
+    "dynamic_keymap": {
+        "layer_count": 4
     }
 }
