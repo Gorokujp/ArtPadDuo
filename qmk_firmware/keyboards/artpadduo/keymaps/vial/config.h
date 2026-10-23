@@ -11,7 +11,7 @@
 // 24 pulses/rev, no detents. 4 = 24 steps/rev, 2 = 48, 1 = 96
 #define ENCODER_A_PINS { GP5 }
 #define ENCODER_B_PINS { GP8 }
-#define ENCODER_RESOLUTIONS { 2 }
+#define ENCODER_RESOLUTIONS { 4 }
 // Right half has no encoder: one dummy entry with NO_PIN
 // (empty arrays trigger -Werror=array-bounds in the QMK driver)
 #define ENCODER_A_PINS_RIGHT { NO_PIN }
